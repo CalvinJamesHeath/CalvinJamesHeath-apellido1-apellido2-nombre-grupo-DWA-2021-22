@@ -128,7 +128,9 @@ main,
 	color: #ec5242;
 	font-weight: 900;
 }
-
+#home {
+	height: 100vh;
+}
 #about {
 	text-align: center;
 	color: #666;
@@ -334,6 +336,7 @@ main,
 	text-decoration: none;
 	color: #272a31;
 }
+
 .logo {
 	display: inline;
 	text-decoration: none;
@@ -450,14 +453,6 @@ main,
 		padding: 150px;
 	}
 
-	#aboutDesc {
-		margin: 30px 0;
-	}
-
-	#about > div.redline {
-		width: 30px;
-	}
-
 	#past-works {
 		display: flex;
 		flex-direction: row;
@@ -476,15 +471,6 @@ main,
 		background-color: #272a31;
 		color: #fff;
 		padding: 50px;
-	}
-
-	#footer > a.logo {
-		color: #fff;
-	}
-
-	#logoContainer {
-		margin: 30px 30%;
-		font-size: 2rem;
 	}
 }
 
