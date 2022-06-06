@@ -483,3 +483,13 @@ main,
 		color: #000;
 	}
 }
+
+@media screen and (max-width: 1307px) {
+	#date {
+		color: rgb(255, 0, 0);
+	}
+
+	#location {
+		color: rgb(255, 0, 0);
+	}
+}
